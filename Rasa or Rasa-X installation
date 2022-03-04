@@ -39,5 +39,12 @@ Install Rasa-X using command:
 
 
 
+
+If you face Rasa-X error use this command:
+
+ -> pip install rasa-x==0.26.3 --extra-index-url https://pypi.rasa.com/simple
+
+
+
 Regard 
 Hamid
