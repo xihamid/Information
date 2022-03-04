@@ -1,17 +1,43 @@
-#Intall rasa
-pip install --upgrade pip==20.2
-install rasa --extra-index-url https://pypi.rasa.com/simple
-#for rasa-x
-pip install rasa-x== --extra-index-url https://pypi.rasa.com/simple
+step 1:
+-> Open Conda Powershell
+-> create virtual environemnt using following command
+  -> conda create -n environemnt_name python==3.7
+  
+ step 2:
+-> Create any folder at any location and copy that folder_location_path 
+-> open conda powershell/ Terminal and use following command to set path
+  -> cd folder_location_path
 
-or
+step 3:
+activate virtual environemnt
+  -> conda activate environemnt_name
 
-With rasa==2.7.0 and pip==20.2, I ran the command pip install rasa-x --extra-index-url https://pypi.rasa.com/simple which was quick. It installed rasa-x==0.40.1 for me.
-#
-after installation put this command
+step 4:
+Install Rasa using command:
+  -> install rasa --extra-index-url https://pypi.rasa.com/simple
+  # if you face any problem then first downgrade your pip version
+  -> pip install --upgrade pip==20.2
+  # now run above command
 
-rasa init
-rasa train
+step 5:
+Run follwing command:
+  -> rasa init
+  -> rasa train
+  -> rasa shell # after retraing model
+  
 
-rasa shell
-rasa x # for rasa x User Interface
+
+For Rasa-X Installation:
+
+just change minor change in step:4 as following
+step 4:
+Install Rasa-X using command:
+  -> install rasa-X --extra-index-url https://pypi.rasa.com/simple
+  # if you face any problem then first downgrade your pip version
+  -> pip install --upgrade pip==20.2
+  # now run above command
+
+
+
+Regard 
+Hamid
